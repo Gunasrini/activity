@@ -1,0 +1,106 @@
+/* RoleMaster.css */
+/* .role-master-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+} */
+
+.header {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+.permissions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.permissions-table th,
+.permissions-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.permissions-table th {
+  background-color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.permissions-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.permissions-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.permissions-table td {
+  vertical-align: middle;
+}
+
+.permissions-table td:first-child {
+  text-align: left;
+}
+
+.permissions-table .ant-checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* .permissions-table .ant-checkbox {
+  padding: 4px;
+} */
+
+/* Modal footer styling */
+.ant-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .ant-modal-footer button {
+  margin: 0 8px;
+} */
+
+
+
+
+
