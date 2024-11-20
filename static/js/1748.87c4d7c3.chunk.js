@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkemilus=self.webpackChunkemilus||[]).push([[1748],{91748:function(e,s,t){t.r(s);t(72791);var u=t(57689),l=t(80184);s.default=function(){return(0,l.jsx)(u.Z5,{children:(0,l.jsx)(u.AW,{path:"*",element:(0,l.jsx)(u.Fg,{to:"product-list",replace:!0})})})}}}]);
+//# sourceMappingURL=1748.87c4d7c3.chunk.js.map
